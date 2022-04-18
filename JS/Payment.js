@@ -1,3 +1,13 @@
-function Payment() {
-    this.id;
+// ANTES:
+// function Payment() {
+//     this.id;
+// }
+
+// DESPUÉS:
+
+class Payment {
+    constructor() {
+        this.id;
+    }
+
 }
